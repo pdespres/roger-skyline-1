@@ -1,0 +1,1 @@
+netstat -rn -f inet | grep "default" | awk -F " " '{print $2}'
