@@ -1,1 +1,2 @@
 du -h /var
+du -sch /var
