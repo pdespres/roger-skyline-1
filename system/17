@@ -1,0 +1,2 @@
+su -c 'iptables -L'
+avant su -c 'iptables -t filter --list'
