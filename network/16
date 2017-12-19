@@ -1,1 +1,3 @@
 Nope
+MAIS si le mdp root etait connu, on pourrait faire du
+echo '163.172.250.11	intra.42.fr' >> /etc/hosts
