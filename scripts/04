@@ -1,0 +1,6 @@
+if test -e /etc/crontab.md5; then
+	if !(md5sum --status -c /etc/crontab.md5); then
+		echo -e 'body' | mail -s 'sujet' root
+	fi
+fi
+md5sum /etc/crontab > /etc/crontab.md5	
