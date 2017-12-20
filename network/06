@@ -1,2 +1,2 @@
 /etc/resolv.conf
-//networksetup -getdnsservers Ethernet
+#networksetup -getdnsservers Ethernet

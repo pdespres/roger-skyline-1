@@ -1,9 +1,3 @@
-Non-authoritative answer:
-Name:	42.fr
-Address: 163.172.250.12
-Name:	42.fr
-Address: 163.172.250.11
-Name:	42.fr
-Address: 10.52.1.11
-
-Similaire et une IP locale en plus avec le DNS local.
+nslookup 42.fr
+nslookup 42.fr 8.8.8.8
+#Similaire et une IP locale en plus avec le DNS local.
