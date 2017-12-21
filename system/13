@@ -1,2 +1,4 @@
-ps -aux | less
-ou top?
+#!/bin/bash
+
+#ps -aux | less
+top

@@ -1,2 +1,4 @@
+#!/bin/bash
+
+#root
 /etc/init.d/ssh restart
-+ root

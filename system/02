@@ -1,1 +1,4 @@
-hostname x for super user
+#!/bin/bash
+
+#root needed
+hostname 42

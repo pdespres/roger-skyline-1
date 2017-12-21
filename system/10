@@ -1,2 +1,4 @@
+#!/bin/bash
+
 fdisk -l
-su -c 'fdisk -l'
+#su -c 'fdisk -l'

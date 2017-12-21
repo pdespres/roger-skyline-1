@@ -1,6 +1,10 @@
+#!/bin/bash
+
 if test -e /etc/crontab.md5; then
 	if !(md5sum --status -c /etc/crontab.md5); then
-		echo -e 'body' | mail -s 'sujet' root
+		mail -s '[crontab] Mod alert' root
 	fi
 fi
-md5sum /etc/crontab > /etc/crontab.md5	
+md5sum /etc/crontab > /etc/crontab.md5
+#echo '0 0 * * * root sh /home/paul/04' >> /etc/crontab
+#crontab -e

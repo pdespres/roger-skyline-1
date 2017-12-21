@@ -1,3 +1,5 @@
+#!/bin/bash
+
 du -h /var
 du -sch /var
 du -h -d 1?

@@ -1,2 +1,4 @@
+#!/bin/bash
+
 u -c 'tail -f /var/log/syslog &'
-verifier ps -u root | less
+#verifier ps -u root | less

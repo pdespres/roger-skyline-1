@@ -1,1 +1,8 @@
- ls -Slp $1 | grep -v /
+#!/bin/bash
+
+if [ -z "$1" ]; then
+	echo 'need an arg'
+	exit
+fi
+
+ls -Slp $1 | grep -v /

@@ -1,6 +1,9 @@
+#!/bin/bash
+
 #su -c
 exec 1>>/var/log/update_script.log
 exec 2>>/var/log/update_script.log
-apt-get update
-apt-get dist-upgrade
-#/etc/crontab << ('0 4	* * 0	root	sh /home/paul/03')
+apt-get update -y
+apt-get dist-upgrade -y
+#echo '0 4 * * 0 root sh /home/paul/02' >> /etc/crontab
+#crontab -e

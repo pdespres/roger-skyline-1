@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #nslookup -type=ns slash16.org
 #host -t soa slash16.org
 nslookup slash16.org

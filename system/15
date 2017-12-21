@@ -1,1 +1,3 @@
+#!/bin/bash
+
 su -c 'pkill -9 tail'
