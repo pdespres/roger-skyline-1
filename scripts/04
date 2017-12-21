@@ -2,7 +2,7 @@
 
 if test -e /etc/crontab.md5; then
 	if !(md5sum --status -c /etc/crontab.md5); then
-		mail -s '[crontab] Mod alert' root
+		echo 'Crontab has been modified in the past 24h.' | mail -s '[crontab] Mod alert' root
 	fi
 fi
 md5sum /etc/crontab > /etc/crontab.md5
