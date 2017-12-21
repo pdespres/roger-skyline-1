@@ -6,5 +6,6 @@ if test -e /etc/crontab.md5; then
 	fi
 fi
 md5sum /etc/crontab > /etc/crontab.md5
+#su root
 #echo '0 0 * * * root sh /home/paul/04' >> /etc/crontab
 #crontab -e

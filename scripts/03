@@ -5,4 +5,4 @@ if [ -z "$1" ]; then
 	exit
 fi
 
-ls -Slp $1 | grep -v /
+ls -Slahp $1 | grep -v '^total' | grep -v /
