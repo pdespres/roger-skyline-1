@@ -1,0 +1,3 @@
+#!/bin/bash
+
+du -hc -d 1 /var
